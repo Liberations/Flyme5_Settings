@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">AdSettings</string>
+    <string-array name="dip_array">
+        <item>480</item>
+        <item>440</item>
+        <item>400</item>
+        <item>360</item>
+        <item>320</item>
+        <item>300</item>
+    </string-array>
+</resources>

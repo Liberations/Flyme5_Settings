@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1F1F1"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="20dp"
+
+            android:gravity="center|left"
+            android:paddingLeft="20dp"
+            android:text="点亮和唤醒"
+            android:textColor="#837d7d"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#FFFFFF"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_dt2w"
+                    android:layout_width="0dp"
+                    android:layout_height="55dp"
+                    android:layout_weight="3"
+                    android:gravity="center|left"
+                    android:paddingLeft="25dp"
+                    android:text="双击唤醒"
+                    android:textColor="#323232"
+                    android:textSize="16sp" />
+
+                <ToggleButton
+                    android:id="@+id/one"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.7"
+                    android:background="@android:color/transparent"
+                    android:button="@drawable/switch_btn"
+                    android:checked="false"
+                    android:gravity="center"
+                    android:textOff=""
+                    android:textOn="" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="#D7D7D7" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#FFFFFF"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_edg"
+                    android:layout_width="0dp"
+                    android:layout_height="55dp"
+                    android:layout_weight="3"
+                    android:gravity="center|left"
+                    android:paddingLeft="25dp"
+                    android:text="边缘触控"
+                    android:textColor="#323232"
+                    android:textSize="16sp" />
+
+                <ToggleButton
+                    android:id="@+id/two"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.7"
+                    android:background="@android:color/transparent"
+                    android:button="@drawable/switch_btn"
+                    android:checked="false"
+                    android:gravity="center"
+                    android:textOff=""
+                    android:textOn="" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="#D7D7D7" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#FFFFFF"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_keydisbale"
+                    android:layout_width="0dp"
+                    android:layout_height="55dp"
+                    android:layout_weight="3"
+                    android:gravity="center|left"
+                    android:paddingLeft="25dp"
+                    android:text="屏蔽实体键"
+                    android:textColor="#323232"
+                    android:textSize="16sp" />
+
+                <ToggleButton
+                    android:id="@+id/three"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.7"
+                    android:background="@android:color/transparent"
+                    android:button="@drawable/switch_btn"
+                    android:checked="false"
+                    android:gravity="center"
+                    android:textOff=""
+                    android:textOn="" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="#D7D7D7" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#FFFFFF"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_keylight"
+                    android:layout_width="0dp"
+                    android:layout_height="55dp"
+                    android:layout_weight="3"
+                    android:gravity="center|left"
+                    android:paddingLeft="25dp"
+                    android:text="关闭键盘灯"
+                    android:textColor="#323232"
+                    android:textSize="16sp" />
+
+                <ToggleButton
+                    android:id="@+id/five"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.7"
+                    android:background="@android:color/transparent"
+                    android:button="@drawable/switch_btn"
+                    android:checked="false"
+                    android:gravity="center"
+                    android:textOff=""
+                    android:textOn="" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="20dp"
+
+            android:gravity="center|left"
+            android:paddingLeft="20dp"
+            android:text="其他设置"
+            android:textColor="#837d7d"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#FFFFFF"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_cutgantanhao"
+                    android:layout_width="0dp"
+                    android:layout_height="55dp"
+                    android:layout_weight="3"
+                    android:gravity="center|left"
+                    android:paddingLeft="25dp"
+                    android:text="去除感叹号"
+                    android:textColor="#323232"
+                    android:textSize="16sp" />
+
+                <ToggleButton
+                    android:id="@+id/four"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.7"
+                    android:background="@android:color/transparent"
+                    android:button="@drawable/switch_btn"
+                    android:checked="false"
+                    android:gravity="center"
+                    android:textOff=""
+                    android:textOn="" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="#D7D7D7" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#FFFFFF"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_dpi"
+                    android:layout_width="0dp"
+                    android:layout_height="55dp"
+                    android:layout_weight="1.84"
+                    android:gravity="center|left"
+                    android:paddingLeft="25dp"
+                    android:text="DPI密度调节"
+                    android:textColor="#323232"
+                    android:textSize="16sp" />
+
+                <Spinner
+                    android:id="@+id/sp_DPI"
+                    android:layout_width="0dp"
+                    android:layout_height="45dp"
+                    android:layout_gravity="right"
+                    android:layout_weight="0.35"
+
+                    android:entries="@array/dip_array"
+
+
+                    android:gravity="center"
+                    android:paddingEnd="10dp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="35dp"
+                    android:layout_weight="0.13" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="#D7D7D7" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_eye"
+                    android:layout_width="0dp"
+                    android:layout_height="55dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="2"
+                    android:clickable="true"
+                    android:gravity="left|center"
+                    android:onClick="toEye"
+                    android:paddingLeft="25dp"
+                    android:text="护目镜 可调节屏幕色温等"
+                    android:textColor="#212121"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:id="@+id/img_humujing"
+                    android:layout_width="10dp"
+                    android:layout_height="16dp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="40dp"
+                    android:background="@drawable/more"
+                    android:entries="@array/dip_array"
+
+
+                    android:paddingLeft="50dp"
+
+                    android:paddingRight="20dp" />
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="#D7D7D7" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="#FFFFFF"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/weibo"
+                    android:layout_width="0dp"
+                    android:layout_height="55dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="2"
+                    android:clickable="true"
+                    android:gravity="left|center"
+                    android:onClick="toEye"
+                    android:paddingLeft="25dp"
+                    android:text="Liberation"
+                    android:textColor="#212121"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:id="@+id/aboutme"
+                    android:layout_width="10dp"
+                    android:layout_height="16dp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="40dp"
+                    android:background="@drawable/more"
+                    android:entries="@array/dip_array"
+
+
+                    android:paddingLeft="50dp"
+
+                    android:paddingRight="20dp" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="#D7D7D7" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="55dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="2"
+                    android:clickable="true"
+                    android:gravity="left|center"
+                    android:onClick="join"
+                    android:paddingLeft="25dp"
+                    android:text="点我添加QQ群"
+                    android:textColor="#212121"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:layout_width="10dp"
+                    android:layout_height="16dp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="40dp"
+                    android:background="@drawable/more"
+
+
+                    android:paddingLeft="50dp"
+
+                    android:paddingRight="20dp" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="#D7D7D7" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>
